@@ -1,0 +1,29 @@
+.wrap {
+  display: flex;
+  justify-content: space-around;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+    width: 400px;
+  }
+
+  .options {
+    padding-left: 40px;
+    min-height: 120px;
+
+    &__item {
+      list-style: disc;
+    }
+  }
+
+  .text {
+    margin-top: 20px;
+  }
+}
